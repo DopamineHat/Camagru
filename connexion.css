@@ -3,7 +3,7 @@ h1
     position : relative;
     margin : auto;
     top: 5vw;
-    color: #C5E2F1;
+    color: #444444;
     position : relative;
     left : 2vw;
     font-size:2vw;
@@ -28,15 +28,14 @@ h3
 
 .box
 {
-    background-color:rgba(0,0,125,.3);
+    background-color: #aaaaff;
     width : 90vw;
     height : 35vw;
     left : 50%;
     margin-top : 2vw;
     margin-left: 3vw;
-    border : 4px solid gold;
-    border-radius : 25px;
-    box-shadow: 13px 5px 20px #FFF;
+    box-shadow : 0px 0px 10px 4px grey;
+    border-radius : 5px;
 }
 
 .id
@@ -47,12 +46,12 @@ h3
 .textbox1
 {
     position : relative;
-    background-color:rgba(125,125,255,.05);
+    background-color:rgba(0,0,255,.1);
     margin : auto;
     float: right;
     right: 4vw;
     border-radius: 5vw;
-    border : 2px solid gold;
+    box-shadow : 2px solid #888888;
     width :45vw;
     height :2vw;
 }
@@ -60,21 +59,25 @@ h3
 .textbox2
 {
     position : relative;
-    background-color:rgba(125,125,255,.05);
+    background-color:rgba(0,255,255,.1);
     margin : auto;
     float : right;
     right: 4vw;
     border-radius: 5vw;
-    border : 2px solid gold;
+    box-shadow : 2px solid #888888;
     width :45vw;
     height :2vw;
 }
 
 .button
 {
-    position : relative;
-    background-color : rgba(0,0,125,0);
-    box-shadow: 0px 0px 15px #FFF;
+    border-radius: 5px;
+    margin-top: 4vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color : #aaaaff;
+    box-shadow: 0px 0px 15px #ffffff;
     top : 5vw;
     left  :5vw;
     width: 30vw;
@@ -83,9 +86,12 @@ h3
 
 .button1
 {
-    position : relative;
-    background-color : rgba(125,0,0,0.5);
-    box-shadow: 0px 0px 15px #FFF;
+    background-color : #888888;
+    display: block;
+    margin-top: 4vw;
+    margin-left: 5vw;
+    box-shadow: 0px 0px 15px #ffffff;
+    border-radius: 5px;
     width: 30vw;
     left  :10vw;
     height:5vw;
@@ -93,9 +99,10 @@ h3
 
 .button2
 {
-    position : relative;
-    background-color : rgba(125,0,0,0.5);
-    box-shadow: 0px 0px 15px #FFF;
+    background-color : #888888;
+    display: block;
+    box-shadow: 0px 0px 15px #ffffff;
+    border-radius: 5px;
     width: 30vw;
     left : 10vw;
     height: 5vw;
@@ -103,20 +110,22 @@ h3
 
 .button:hover
 {
-    border : 2px solid gold;
-    background-color :rgba(255,125,155,.5);
+    background-color : #bbbbff;
 }
 
 .button1:hover
 {
-    border : 5px solid gold;
-    background-color :rgba(125,255,125,.8);
+    background-color : #aaaaaa;
 }
 
 .button2:hover
 {
-    border : 5px solid gold;
-    background-color :rgba(125,125,225,.6);
+    background-color : #aaaaaa;
 }
 
-
+.autist
+{
+	
+	background-color: black;
+	margin-right: 40wv;
+}
